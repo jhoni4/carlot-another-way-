@@ -1,0 +1,21 @@
+{
+  "name": "carlot-another-way-",
+  "homepage": "https://github.com/jhoni4/carlot-another-way-",
+  "authors": [
+    "yonatan molla <jhoni42002@yahoo.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
