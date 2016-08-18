@@ -1,3 +1,5 @@
+"use strict";
+
 CarLot = (function(carLot){
   carLot.restoreState = function(select){
     select.forEach(function(cardSelect){
@@ -5,7 +7,7 @@ CarLot = (function(carLot){
     })
   }
   carLot.changeState = function(cardSelect, clickedCarCard){
-    cardSelect.classList.add(clickedCarCard)
+    cardSelect.classList.add(clickedCarCard);
   }
   carLot.textEdit = function(cardSelect, userInput){
     userInput.addEventListener("keyup", function(){
