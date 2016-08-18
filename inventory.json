@@ -1,0 +1,94 @@
+{
+  "cars": [
+    {
+      "url": "/cars/fiat6.jpg",
+      "make": "FIAT600",
+      "model": "Rogue",
+      "year": "2006",
+      "price": "110",
+      "color": "Silver",
+      "purchased": false,
+      "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
+    },
+    {
+      "url": "/cars/fiat127.jpg",
+      "make": "FIAT127",
+      "model": "Rogue",
+      "year": "2006",
+      "price": "100",
+      "color": "Silver",
+      "purchased": false,
+      "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
+    },
+    {
+      "url": "/cars/fiat850.jpg",
+      "make": "Fiat850",
+      "model": "Sidekick",
+      "year": "1992",
+      "price": "200",
+      "color": "Teal",
+      "purchased": false,
+      "description": "This is a 4-Door 4x4 1992 Suzuki Sidekick with 92000 miles.  Clean interior, runs great, manual windows."
+    },
+    {
+      "url": "/cars/pontiac_firebird.JPG",
+      "make": "Pontiac",
+      "model": "Firebird",
+      "year": "1985",
+      "price": "5999",
+      "color": "Red",
+      "purchased": false,
+      "description": "This is a 2-Door hatchback Pontiac Firebird with 40000 miles.  Excellent condition and clean vehicle history."
+    },
+    {
+      "url": "/cars/suzuki_sidekick.jpg",
+      "make": "Suzuki",
+      "model": "Sidekick",
+      "year": "1992",
+      "price": "3999",
+      "color": "Teal",
+      "purchased": false,
+      "description": "This is a 4-Door 4x4 1992 Suzuki Sidekick with 92000 miles.  Clean interior, runs great, manual windows."
+    },
+    {
+      "url": "/cars/pontiac_firebird.jpg",
+      "make": "Pontiac",
+      "model": "Firebird",
+      "year": "1985",
+      "price": "5999",
+      "color": "Red",
+      "purchased": false,
+      "description": "This is a 2-Door hatchback Pontiac Firebird with 40000 miles.  Excellent condition and clean vehicle history."
+    },
+    {
+      "url": "/cars/fiat600.jpg",
+      "make": "Fiat600",
+      "model": "Rogue",
+      "year": "2006",
+      "price": "160",
+      "color": "Silver",
+      "purchased": false,
+      "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
+    },
+    {
+      "url": "/cars/hilux.jpg",
+      "make": "Hilux",
+      "model": "Sidekick",
+      "year": "1992",
+      "price": "150",
+      "color": "Teal",
+      "purchased": false,
+      "description": "This is a 4-Door 4x4 1992 Suzuki Sidekick with 92000 miles.  Clean interior, runs great, manual windows."
+    },
+    {
+      "url": "/cars/Lada.JPG",
+      "make": "LADA",
+      "model": "Firebird",
+      "year": "1985",
+      "price": "200",
+      "color": "Red",
+      "purchased": false,
+      "description": "This is a 2-Door hatchback Pontiac Firebird with 40000 miles.  Excellent condition and clean vehicle history."
+    }
+  ]
+}
