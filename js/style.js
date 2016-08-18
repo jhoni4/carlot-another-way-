@@ -1,20 +1,21 @@
 "use strict";
+var userInput = document.getElementById('userInput'),
+ cardStyle = {};
 
-CarLot = (function(carLot){
-  carLot.restoreState = function(select){
+cardStyle.restoreState = function(select){
     select.forEach(function(cardSelect){
-      cardSelect.classList.remove("clickedCarCard")
-    })
-  }
-  carLot.changeState = function(cardSelect, clickedCarCard){
+      cardSelect.classList.remove("clickedCarCard");
+    });
+  };
+cardStyle.changeState = function(cardSelect, clickedCarCard){
     cardSelect.classList.add(clickedCarCard);
-  }
-  carLot.textEdit = function(cardSelect, userInput){
-    userInput.addEventListener("keyup", function(){
-      if (cardSelect.classList.contains("clickedCarCard")){
-        cardSelect.querySelector("p").innerHTML = userInput.value
-      }
-    })
-  }
-  return carLot
-})(CarLot);
+  };
+cardStyle.textEdit = function(cardSelect, userInput){
+     userInput.value = cardSelect.querySelector("p").innerHTML;
+     userInput.addEventListener("keyup", function(){
+       if (cardSelect.classList.contains("clickedCarCard")){
+         cardSelect.querySelector("p").innerHTML = userInput.value;
+        }
+      });
+};
+module.exports = cardStyle;
