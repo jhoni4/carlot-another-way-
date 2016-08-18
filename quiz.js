@@ -29,15 +29,17 @@
     // Now that the DOM is loaded, establish all the event listeners needed
   // Load the inventory and send a callback function to be
   // invoked after the process is complete
-    CarLot.loadInventory(populatePage);
-    .then(
-      function(inventoryFromLoadInventoryResonlve);
-      console.log("carPromise", inventoryFromLoadInventoryResonlve);
-    ),
+  CarLot.loadInventory(populatePage)
+  .then(
+      function(inventoryFromLoadInventoryResonlve){
+
+        console.log("carPromise", inventoryFromLoadInventoryResonlve);
+      },
+
     function (reason) {
       console.error('something went wrong', reason);
-    },
-    .then(function(){
-      CarLot.activateEvents();
     })
+  .then(function(){
+      CarLot.activateEvents();
+    });
 })();
