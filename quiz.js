@@ -11,7 +11,7 @@
         outputString += `<div class="row">`
       }
 
-      outputString += `<div class="col-md-4 carCard" style="border-color: ${car.color}">
+    outputString += `<div class="col-md-4 carCard" style="border-color: ${car.color}">
       <img src="${car.url}">
       <h3>${car.year} ${car.make} ${car.model}</h3>
       <h3>$${car.price}</h3>
@@ -19,16 +19,25 @@
       <h3>${car.purchased}</h3>
       <p>${car.description}</p>
       </div>`
-      }
-      if ((i + 1) % 3 === 0) {
+    }
+    if ((i + 1) % 3 === 0) {
       outputString += `</div>`
       }
       showRoom.innerHTML = outputString
-      CarLot.activateEvents();
     }
 
     // Now that the DOM is loaded, establish all the event listeners needed
   // Load the inventory and send a callback function to be
   // invoked after the process is complete
     CarLot.loadInventory(populatePage);
+    .then(
+      function(inventoryFromLoadInventoryResonlve);
+      console.log("carPromise", inventoryFromLoadInventoryResonlve);
+    ),
+    function (reason) {
+      console.error('something went wrong', reason);
+    },
+    .then(function(){
+      CarLot.activateEvents();
+    })
 })();
