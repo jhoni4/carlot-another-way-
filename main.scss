@@ -1,0 +1,23 @@
+$my-fav: lightblue;
+
+
+
+h1 {
+  text-align: center;
+}
+
+img {
+  padding-top: 15px;
+  max-height: 140px;
+  align-self: center;
+}
+
+.carCard {
+  border: solid 3px;
+}
+
+.clickedCarCard {
+  border: solid 4px;
+  background-color: $my-fav;
+
+}

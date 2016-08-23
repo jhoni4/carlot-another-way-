@@ -2,93 +2,93 @@
   "cars": [
     {
       "url": "/cars/fiat6.jpg",
-      "make": "FIAT600",
-      "model": "Rogue",
+      "make": "FIAT",
+      "model": "600",
       "year": "2006",
       "price": "110",
       "color": "Silver",
       "purchased": false,
-      "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
+      "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. "
     },
     {
       "url": "/cars/fiat127.jpg",
-      "make": "FIAT127",
-      "model": "Rogue",
+      "make": "FIAT",
+      "model": "127",
       "year": "2006",
       "price": "100",
-      "color": "Silver",
+      "color": "tomato",
       "purchased": false,
-      "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
+      "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. "
     },
     {
       "url": "/cars/fiat850.jpg",
-      "make": "Fiat850",
-      "model": "Sidekick",
+      "make": "Fiat",
+      "model": "850",
       "year": "1992",
       "price": "200",
-      "color": "Teal",
+      "color": "pink",
       "purchased": false,
-      "description": "This is a 4-Door 4x4 1992 Suzuki Sidekick with 92000 miles.  Clean interior, runs great, manual windows."
+      "description": "This is a 4-Door 4x4 1992 Suzuki Sidekick with 92000 miles.  Clean "
     },
     {
       "url": "/cars/pontiac_firebird.JPG",
-      "make": "Pontiac",
-      "model": "Firebird",
-      "year": "1985",
-      "price": "5999",
+      "make": "ferari",
+      "model": "monk",
+      "year": "1980",
+      "price": "300",
       "color": "Red",
       "purchased": false,
-      "description": "This is a 2-Door hatchback Pontiac Firebird with 40000 miles.  Excellent condition and clean vehicle history."
+      "description": "This is a 2-Door hatchback Pontiac Firebird with 40000 miles.  Excellent "
     },
     {
       "url": "/cars/suzuki_sidekick.jpg",
       "make": "Suzuki",
-      "model": "Sidekick",
+      "model": "suz",
       "year": "1992",
-      "price": "3999",
-      "color": "Teal",
+      "price": "400",
+      "color": "purple",
       "purchased": false,
-      "description": "This is a 4-Door 4x4 1992 Suzuki Sidekick with 92000 miles.  Clean interior, runs great, manual windows."
+      "description": "This is a 4-Door 4x4 1992 Suzuki Sidekick with 92000 miles.  Clean "
     },
     {
       "url": "/cars/pontiac_firebird.jpg",
-      "make": "Pontiac",
-      "model": "Firebird",
+      "make": "mazda",
+      "model": "goldenrod",
       "year": "1985",
-      "price": "5999",
-      "color": "Red",
+      "price": "200",
+      "color": "blue",
       "purchased": false,
-      "description": "This is a 2-Door hatchback Pontiac Firebird with 40000 miles.  Excellent condition and clean vehicle history."
+      "description": "This is a 2-Door hatchback Pontiac Firebird with 40000 miles.  Excellent "
     },
     {
       "url": "/cars/fiat600.jpg",
-      "make": "Fiat600",
-      "model": "Rogue",
+      "make": "Fiat",
+      "model": "600",
       "year": "2006",
       "price": "160",
-      "color": "Silver",
+      "color": "green",
       "purchased": false,
-      "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
+      "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. "
     },
     {
       "url": "/cars/hilux.jpg",
       "make": "Hilux",
-      "model": "Sidekick",
+      "model": "hi",
       "year": "1992",
       "price": "150",
-      "color": "Teal",
+      "color": "yellow",
       "purchased": false,
-      "description": "This is a 4-Door 4x4 1992 Suzuki Sidekick with 92000 miles.  Clean interior, runs great, manual windows."
+      "description": "This is a interior, runs great, manual windows.4-Door 4x4 1992. "
     },
     {
       "url": "/cars/Lada.JPG",
       "make": "LADA",
-      "model": "Firebird",
+      "model": "aa1",
       "year": "1985",
       "price": "200",
-      "color": "Red",
+      "color": "brown",
       "purchased": false,
-      "description": "This is a 2-Door hatchback Pontiac Firebird with 40000 miles.  Excellent condition and clean vehicle history."
+      "description": "This is a 2-Door hatchback Pontiac Firebird with 40000 miles.  Excellent "
     }
   ]
 }
